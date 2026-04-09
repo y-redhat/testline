@@ -39,10 +39,10 @@
                     const data = await response.json();
                     addLog(`成功: ${JSON.stringify(data).substring(0, 50)}...`);
                     
-                    await wait(20000);
+                  //  await wait(20000);
                 } catch (error) {
                     addLog(`エラー: ${error.message}`, true);
-                    await wait(20000);
+                  //  await wait(20000);
                 }
             }
         }
